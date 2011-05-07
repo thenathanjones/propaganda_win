@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Propaganda>
+  <Setup>
+    <Players>
+      <Player PlayerType="IAudioFilePlayer" Type="Propaganda.VLCService.VLCService"/>
+      <Player PlayerType="IAudioStreamPlayer" Type="Propaganda.VLCService.VLCService"/>
+      <Player PlayerType="IVideoFilePlayer" Type="Propaganda.VLCService.VLCService"/>
+      <Player PlayerType="IVideoStreamPlayer" Type="Propaganda.VLCService.VLCService"/>
+    </Players>
+  </Setup>
+
+  <Services>
+    <Service Assembly="F:\development\vsworkspace\Propaganda\Propaganda\bin\Debug\VLCService.dll" Type="Propaganda.VLCService.VLCService" Enabled="True"/>
+    <Service Assembly="F:\development\vsworkspace\Propaganda\Propaganda\bin\Debug\FoobarService.dll" Type="Propaganda.FoobarService.FoobarService" Enabled="True"/>
+    <Service Assembly="F:\development\vsworkspace\Propaganda\Propaganda\bin\Debug\DBService.dll" Type="Propaganda.DBService.DBService" Enabled="True"/>
+  </Services>
+  
+  <Modules>
+    <Module Assembly="F:\development\vsworkspace\Propaganda\Propaganda\bin\Debug\AudioModule.dll" Type="Propaganda.AudioModule.AudioModule" Enabled="True"/>
+  </Modules>
+</Propaganda>
