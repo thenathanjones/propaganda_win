@@ -10,7 +10,7 @@ namespace Propaganda.AmazonService
         /// <summary>
         /// Web services ID to be used with Amazon
         /// </summary>
-        public const string AMAZON_AWS_KEY_ID = "0FW7P5S0JWJKXYAVF8R2";
+        public const string AMAZON_AWS_KEY_ID = "";
 
         /// <summary>
         /// Threshold for string matching Amazon entries
